@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39e7a855-e373-4405-81f2-04928a00e8df" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l09LeVLIicbPUsu7yUxLkLqQfl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sandbox" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyFirstProgram">
+    <configuration type="TestNG">
+      <module name="java_lessons2" />
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../jdk1.8.0_271" />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\java_lessons2\src\main\java" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFirstProgram" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (3)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MyFirstProgram" />
+      <module name="java_lessons2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Test.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (3)" />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyFirstProgram" />
+      <item itemvalue="Gradle.Test.test" />
+      <item itemvalue="TestNG.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Test.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39e7a855-e373-4405-81f2-04928a00e8df" name="Default Changelist" comment="" />
+      <created>1606723087667</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606723087667</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="299" y="0" width="1092" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606744015927">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="299" y="0" width="1092" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1606744015927" />
+    <state x="560" y="219" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606744012676">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="560" y="219" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1606744012676" />
+    <state x="597" y="320" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606726893154">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="597" y="320" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1606726893154" />
+    <state x="611" y="218" key="FileChooserDialogImpl" timestamp="1606745111810">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="611" y="218" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1606745111810" />
+    <state width="907" height="170" key="GridCell.Tab.0.bottom" timestamp="1606745886871">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="907" height="170" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606745886871" />
+    <state width="907" height="170" key="GridCell.Tab.0.center" timestamp="1606745886871">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="907" height="170" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606745886871" />
+    <state width="907" height="170" key="GridCell.Tab.0.left" timestamp="1606745886871">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="907" height="170" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606745886871" />
+    <state width="907" height="170" key="GridCell.Tab.0.right" timestamp="1606745886871">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="907" height="170" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606745886871" />
+    <state x="247" y="7" key="SettingsEditor" timestamp="1606744890247">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="247" y="7" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1606744890247" />
+    <state x="355" y="239" width="988" height="589" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606744328976">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="355" y="239" width="988" height="589" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1606744328976" />
+  </component>
+</project>

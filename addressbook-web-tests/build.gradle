@@ -1,17 +1,15 @@
 plugins {
     id 'java'
-    id 'application'
 
 }
-
-group 'org.example'
-version '1.0-SNAPSHOT'
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
     implementation 'org.testng:testng:7.1.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-7'
 }
-
+test {
+    useTestNG()
+}

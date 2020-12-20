@@ -23,6 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339325f-a5c0-45e1-b127-55889f5e2ab4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.stqa.pft.addressbook.GroupCreationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.stqa.pft.addressbook.GroupCreationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.stqa.pft.addressbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.stqa.pft.addressbook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.stqa.pft.addressbook.GroupCreationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ru.stqa.pft.addressbook.GroupCreationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +89,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -184,6 +200,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="138" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1607669951798" />
+    <state width="1556" height="154" key="GridCell.Tab.0.bottom" timestamp="1607706426635">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="154" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1607706426635" />
+    <state width="1556" height="154" key="GridCell.Tab.0.center" timestamp="1607706426635">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="154" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1607706426635" />
+    <state width="1556" height="154" key="GridCell.Tab.0.left" timestamp="1607706426634">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="154" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1607706426634" />
+    <state width="1556" height="154" key="GridCell.Tab.0.right" timestamp="1607706426635">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="154" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1607706426635" />
     <state x="380" y="172" key="IDE.errors.dialog" timestamp="1607519145409">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -196,6 +228,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="766" y="480" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1607668934886" />
+    <state x="771" y="359" key="extract.method.dialog" timestamp="1607696940961">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="771" y="359" key="extract.method.dialog/0.0.1600.860@0.0.1600.860" timestamp="1607696940961" />
     <state x="295" y="43" key="new project wizard" timestamp="1607669762760">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

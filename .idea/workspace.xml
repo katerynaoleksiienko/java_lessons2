@@ -24,19 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39e7a855-e373-4405-81f2-04928a00e8df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/classes/ru.stqa.pft.addressbook.GroupCreationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/classes/ru.stqa.pft.addressbook.GroupCreationTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/packages/ru.stqa.pft.addressbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/packages/ru.stqa.pft.addressbook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/TEST-ru.stqa.pft.addressbook.GroupCreationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/TEST-ru.stqa.pft.addressbook.GroupCreationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -192,30 +179,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="597" y="320" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1606726893154" />
-    <state x="611" y="218" key="FileChooserDialogImpl" timestamp="1606745111810">
+    <state x="611" y="218" key="FileChooserDialogImpl" timestamp="1608483382570">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="611" y="218" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1606745111810" />
-    <state width="907" height="170" key="GridCell.Tab.0.bottom" timestamp="1606745886871">
+    <state x="611" y="218" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1608483382570" />
+    <state width="1556" height="208" key="GridCell.Tab.0.bottom" timestamp="1608483383761">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="907" height="170" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606745886871" />
-    <state width="907" height="170" key="GridCell.Tab.0.center" timestamp="1606745886871">
+    <state width="1556" height="208" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1608483383761" />
+    <state width="1556" height="208" key="GridCell.Tab.0.center" timestamp="1608483383761">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="907" height="170" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606745886871" />
-    <state width="907" height="170" key="GridCell.Tab.0.left" timestamp="1606745886871">
+    <state width="1556" height="208" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1608483383761" />
+    <state width="1556" height="208" key="GridCell.Tab.0.left" timestamp="1608483383761">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="907" height="170" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606745886871" />
-    <state width="907" height="170" key="GridCell.Tab.0.right" timestamp="1606745886871">
+    <state width="1556" height="208" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1608483383761" />
+    <state width="1556" height="208" key="GridCell.Tab.0.right" timestamp="1608483383761">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="907" height="170" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606745886871" />
-    <state x="247" y="7" key="SettingsEditor" timestamp="1606744890247">
+    <state width="1556" height="208" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1608483383761" />
+    <state x="247" y="7" key="SettingsEditor" timestamp="1608483303984">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="247" y="7" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1606744890247" />
+    <state x="247" y="7" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1608483303984" />
     <state x="355" y="239" width="988" height="589" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606744328976">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

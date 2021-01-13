@@ -11,7 +11,15 @@ public class GroupModificationTests extends TestBase {
         app.getGroupHelper().selectGroup();
         app.getGroupHelper().initGroupModification();
         app.getGroupHelper().fillTheForm(new GroupDate("Test1", "Test2", "Test3"));
+        app.getGroupHelper().submitGroupModification();
         app.getGroupHelper().returnToGroupPage();
-
     }
+    @Test
+    public void testGroupDeletion() {
+        app.getNavigationHelper().gotoGroupPage();
+        app.getGroupHelper().selectGroup();
+        app.getContactHelper().deleteGroup();
+        app.getGroupHelper().returnToGroupPage();
+    }
+
 }

@@ -23,8 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339325f-a5c0-45e1-b127-55889f5e2ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sandbox/src/main/java/ru/stqa/pdf/sandbox/Equality.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -33,21 +31,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.stqa.pft.addressbook.tests.ContactDeletionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.stqa.pft.addressbook.tests.GroupCreationTests.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.stqa.pft.addressbook.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.stqa.pft.addressbook.tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.stqa.pft.addressbook.tests.ContactDeletionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.stqa.pft.addressbook.tests.GroupCreationTests.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sandbox/src/main/java/ru/stqa/pdf/sandbox/Equation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sandbox/src/main/java/ru/stqa/pdf/sandbox/Equation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +126,7 @@
       <recent name="appmanager" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.EquationTests.test0">
+  <component name="RunManager" selected="Gradle.ContactModificationTests">
     <configuration name="Equality" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pdf.sandbox.Equality" />
       <module name="org.example.java_lessons2.main" />
@@ -146,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EquationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ContactModificationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;EquationTests&quot; --debug" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.tests.ContactModificationTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -160,7 +154,7 @@
             <option value=":test" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
@@ -284,21 +278,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.Equality" />
-      <item itemvalue="Gradle.EquationTests" />
       <item itemvalue="Gradle.GroupCreationTests.testGroupCreation" />
       <item itemvalue="Gradle.EquationTests.test2" />
       <item itemvalue="Gradle.EquationTests.test0" />
       <item itemvalue="TestNG.sandbox" />
       <item itemvalue="TestNG.Unnamed" />
       <item itemvalue="TestNG.ContactsCreationTests" />
+      <item itemvalue="Gradle.ContactModificationTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EquationTests.test0" />
+        <item itemvalue="Gradle.ContactModificationTests" />
         <item itemvalue="Gradle.GroupCreationTests.testGroupCreation" />
+        <item itemvalue="Gradle.EquationTests.test0" />
         <item itemvalue="Application.Equality" />
         <item itemvalue="Gradle.EquationTests.test2" />
-        <item itemvalue="Gradle.EquationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -353,10 +347,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="628" y="219" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1610974544477" />
-    <state x="70" y="117" width="589" height="509" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1610295753908">
+    <state x="70" y="117" width="589" height="509" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1611054635591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="70" y="117" width="589" height="509" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1600.860@0.0.1600.860" timestamp="1610295753908" />
+    <state x="70" y="117" width="589" height="509" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1600.860@0.0.1600.860" timestamp="1611054635591" />
     <state x="0" y="587" key="#com.intellij.refactoring.memberPushDown.PushDownDialog" timestamp="1608496217596">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -385,38 +379,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="138" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610974573052" />
-    <state width="1556" height="147" key="GridCell.Tab.0.bottom" timestamp="1611047974688">
+    <state width="1191" height="200" key="GridCell.Tab.0.bottom" timestamp="1611054928682">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="147" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611047974688" />
-    <state width="1556" height="147" key="GridCell.Tab.0.center" timestamp="1611047974687">
+    <state width="1191" height="200" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611054928682" />
+    <state width="1191" height="200" key="GridCell.Tab.0.center" timestamp="1611054928681">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="147" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1611047974687" />
-    <state width="1556" height="147" key="GridCell.Tab.0.left" timestamp="1611047974687">
+    <state width="1191" height="200" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1611054928681" />
+    <state width="1191" height="200" key="GridCell.Tab.0.left" timestamp="1611054928681">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="147" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1611047974687" />
-    <state width="1556" height="147" key="GridCell.Tab.0.right" timestamp="1611047974688">
+    <state width="1191" height="200" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1611054928681" />
+    <state width="1191" height="200" key="GridCell.Tab.0.right" timestamp="1611054928681">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="147" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1611047974688" />
-    <state width="1556" height="270" key="GridCell.Tab.1.bottom" timestamp="1608490059486">
+    <state width="1191" height="200" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1611054928681" />
+    <state width="1191" height="166" key="GridCell.Tab.1.bottom" timestamp="1611049505188">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="270" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1608490059486" />
-    <state width="1556" height="270" key="GridCell.Tab.1.center" timestamp="1608490059486">
+    <state width="1191" height="166" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611049505188" />
+    <state width="1191" height="166" key="GridCell.Tab.1.center" timestamp="1611049505188">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="270" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1608490059486" />
-    <state width="1556" height="270" key="GridCell.Tab.1.left" timestamp="1608490059486">
+    <state width="1191" height="166" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1611049505188" />
+    <state width="1191" height="166" key="GridCell.Tab.1.left" timestamp="1611049505187">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="270" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1608490059486" />
-    <state width="1556" height="270" key="GridCell.Tab.1.right" timestamp="1608490059486">
+    <state width="1191" height="166" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1611049505187" />
+    <state width="1191" height="166" key="GridCell.Tab.1.right" timestamp="1611049505188">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1608490059486" />
+    <state width="1191" height="166" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1611049505188" />
     <state x="380" y="172" key="IDE.errors.dialog" timestamp="1607519145409">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -441,14 +435,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="616" y="207" key="chooseDestDirectoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1610217664760" />
-    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610289071115">
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1611059498569">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1610289071115" />
-    <state x="766" y="480" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607668934886">
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1611059498569" />
+    <state x="766" y="480" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611059710543">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="766" y="480" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1607668934886" />
+    <state x="766" y="480" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1611059710543" />
     <state x="771" y="359" key="extract.method.dialog" timestamp="1610295526673">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

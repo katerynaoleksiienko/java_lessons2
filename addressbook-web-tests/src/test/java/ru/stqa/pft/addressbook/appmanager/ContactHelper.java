@@ -22,6 +22,8 @@ public class ContactHelper extends HelperBase {
         click(By.name("company"));
         type(By.name("company"), contactDate.getCompany());
         type(By.name("address"), contactDate.getAddress());
+
+
     }
 
     public void addNewContact() {

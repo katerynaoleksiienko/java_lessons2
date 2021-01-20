@@ -62,4 +62,16 @@ public class ContactHelper extends HelperBase {
     public void deleteGroup() {
         click(By.xpath("//input[@name='delete']"));
     }
+
+    public void createContact(ContactDate contactDate) {
+        addNewContact();
+        fillTheForm(contactDate);
+        submitForm();
+    }
+    private void fillTheForm(ContactDate contactDate) {
+    }
+
+        public boolean isThereAContact() {
+        return  isElementPresent(By.name("selected[]"));
+    }
 }

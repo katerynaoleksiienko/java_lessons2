@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.tests.ContactDeletionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-24T12:42:34" hostname="KATYA-ПК" time="2.185">
-  <properties/>
-  <testcase name="testContactDeletion" classname="ru.stqa.pft.addressbook.tests.ContactDeletionTest" time="2.185"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

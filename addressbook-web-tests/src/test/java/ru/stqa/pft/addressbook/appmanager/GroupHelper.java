@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import ru.stqa.pft.addressbook.model.GroupDate;
 import org.openqa.selenium.By;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -64,16 +63,15 @@ public class GroupHelper extends  HelperBase {
     public void delete(int index) {
         selectGroup(index);
         deleteSelectGroups();
-        returnToGroupPage();
     }
 
     public boolean isThereAGroup() {
         return isElementPresent(By.name("selected[]"));
     }
 
-    public int getGroupCount() {
-        return wd.findElements(By.name("selected[]")).size();
-    }
+   // public int getGroupCount() {
+    //    return wd.findElements(By.name("selected[]")).size();
+   // }
 
     public List<GroupDate> list() {
         List<GroupDate> groups = new ArrayList<GroupDate>();
@@ -82,8 +80,7 @@ public class GroupHelper extends  HelperBase {
             String name = element.getText();
 
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-            GroupDate group = new GroupDate(id, name, null, null);
-            groups.add(group);
+            groups.add(new GroupDate().withId(id).withName(name));
         }
 
         return groups;

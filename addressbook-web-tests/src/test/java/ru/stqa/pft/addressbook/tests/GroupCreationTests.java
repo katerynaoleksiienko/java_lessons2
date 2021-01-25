@@ -14,13 +14,16 @@ public class GroupCreationTests extends TestBase {
   public void testGroupCreation() {
     app.goTo().groupPage();
     List<GroupDate> before = app.group().list();
-    GroupDate group = new GroupDate("test2", null, null);
-    app.group().create(group);
+    GroupDate group = new GroupDate().withName("test2");
+   app.group().create(group);
+   // app.group().fillTheForm(group);
+   // app.group().submitForm();
+    app.goTo().groupPage();
     List<GroupDate> after = app.group().list();
     Assert.assertEquals(after.size(), before.size() + 1);
 
     before.add(group);
-    Comparator<? super GroupDate> byId = (g1, g2) -> Integer.compare(g1.getId(), g2.getId());
+    Comparator<? super GroupDate> byId = Comparator.comparingInt(GroupDate::getId);
     before.sort(byId);
     after.sort(byId);
     Assert.assertEquals(before, after);

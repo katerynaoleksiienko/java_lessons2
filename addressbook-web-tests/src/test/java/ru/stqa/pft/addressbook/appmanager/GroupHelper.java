@@ -6,7 +6,9 @@ import ru.stqa.pft.addressbook.model.GroupDate;
 import org.openqa.selenium.By;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class GroupHelper extends  HelperBase {
 
@@ -34,8 +36,8 @@ public class GroupHelper extends  HelperBase {
         click(By.name("delete"));
     }
 
-    public void selectGroup(int index) {
-        wd.findElements(By.name("selected[]")).get(index).click();
+    public void selectGroupById(int id) {
+        wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
     }
 
     public void initGroupModification() {
@@ -53,20 +55,18 @@ public class GroupHelper extends  HelperBase {
         submitForm();
         returnToGroupPage();
     }
-    public void modify(int index, GroupDate group) {
-        selectGroup(index);
+    public void modify(GroupDate group) {
+        selectGroupById(group.getId());
         initGroupModification();
         fillTheForm(group);
         submitGroupModification();
         returnToGroupPage();
     }
-    public void delete(int index) {
-        selectGroup(index);
+        public void delete(GroupDate group) {
+        selectGroupById(group.getId());
         deleteSelectGroups();
-    }
+        returnToGroupPage();
 
-    public boolean isThereAGroup() {
-        return isElementPresent(By.name("selected[]"));
     }
 
    // public int getGroupCount() {
@@ -75,6 +75,18 @@ public class GroupHelper extends  HelperBase {
 
     public List<GroupDate> list() {
         List<GroupDate> groups = new ArrayList<GroupDate>();
+        List<WebElement>  elements = wd.findElements(By.cssSelector("span.group"));
+        for (WebElement element : elements) {
+            String name = element.getText();
+
+            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+            groups.add(new GroupDate().withId(id).withName(name));
+        }
+
+        return groups;
+    }
+    public Set<GroupDate> all() {
+        Set<GroupDate> groups = new HashSet<GroupDate>();
         List<WebElement>  elements = wd.findElements(By.cssSelector("span.group"));
         for (WebElement element : elements) {
             String name = element.getText();

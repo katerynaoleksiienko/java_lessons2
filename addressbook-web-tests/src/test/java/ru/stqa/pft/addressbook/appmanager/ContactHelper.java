@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import ru.stqa.pft.addressbook.model.ContactDate;
 import ru.stqa.pft.addressbook.model.Contact;
+import ru.stqa.pft.addressbook.model.Groups;
 
 import java.util.HashSet;
 import java.util.ArrayList;
@@ -72,16 +73,19 @@ public class ContactHelper extends HelperBase {
     public void createContact(ContactDate contactDate) {
         addNewContact();
         fillTheForm(contactDate);
+        contactCache = null;
         submitForm();
     }
     public void modify(ContactDate contact) {
         initContactModification(contact.getId());
         fillTheForm(contact, false);
         updateForm();
+        contactCache = null;
         selectHomePage();
     }
     public void delete(ContactDate contact) {
         deleteById(contact.getId());
+        contactCache = null;
         submitContactDeletion();
     }
     public void submitContactDeletion() {
@@ -104,9 +108,12 @@ public class ContactHelper extends HelperBase {
      //  return  wd.findElements(By.name("selected[]")).size();
 
     }
-
+    private Contact contactCache = null;
     public Contact all() {
-        Contact contacts = new Contact();
+        if (contactCache != null) {
+            return new Contact(contactCache);
+        }
+        contactCache = new Contact();
         List<WebElement> elements = wd.findElements(By.name("entry"));
 
         for (WebElement element : elements) {
@@ -114,9 +121,9 @@ public class ContactHelper extends HelperBase {
             String firstname = cells.get(2).getText();
             String lastname = cells.get(1).getText();
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-            contacts.add(new ContactDate().withId(id).withFirstname(firstname).withLastname(lastname));
+            contactCache.add(new ContactDate().withId(id).withFirstname(firstname).withLastname(lastname));
         }
-        return  contacts;
+        return  contactCache;
     }
 
 }

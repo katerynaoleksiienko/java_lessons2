@@ -25,7 +25,7 @@ public class GroupCreationTests extends TestBase {
    app.group().create(group);
    // app.group().fillTheForm(group);
    // app.group().submitForm();
-    app.goTo().groupPage();
+    //app.goTo().groupPage();
       Groups after = app.group().all();
       assertThat(after.size(), equalTo(before.size() + 1));
 

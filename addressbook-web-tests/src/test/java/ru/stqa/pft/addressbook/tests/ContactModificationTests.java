@@ -23,8 +23,7 @@ public class ContactModificationTests extends TestBase {
     @Test
     public void testContactModification() {
         Contact before = app.contact().all();
-        ContactDate modifiedContact = before.iterator().next();      // app.getContactHelper().selectContact(before.size() -1);
-      // app.contact().initContactModification(before.size() -1);
+        ContactDate modifiedContact = before.iterator().next();
        ContactDate contact = new ContactDate().withId(modifiedContact.getId()).withFirstname("test2").withLastname("test1").withNickname("test4").withCompany("company").withAddress("address").withGroup("test1");
         app.contact().modify(contact);
         Contact after = app.contact().all();

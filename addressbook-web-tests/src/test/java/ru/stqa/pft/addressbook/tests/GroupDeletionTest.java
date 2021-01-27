@@ -28,18 +28,11 @@ public class GroupDeletionTest extends TestBase {
 
     @Test
     public void testGroupDeletion() throws Exception {
-        //app.goTo().groupPage();
-        //if (!app.group().isThereAGroup()) {
-           // app.group().create(new GroupDate("Test1", "Test2", "Test3"));
-       // }
         Groups before = app.group().all();
         GroupDate deletedGroup = before.iterator().next();
         app.group().delete(deletedGroup);
-        //app.goTo().groupPage();
+        assertThat(app.group().count(), equalTo(before.size() - 1));
         Groups after = app.group().all();
-        assertEquals(after.size(), before.size() -1);
         assertThat(after, equalTo(before.without(deletedGroup)));
-        //for (int i = 0; i < after.size(); i++) {
-            //Assert.assertEquals(before.get(i), after.get(i));
         }
         }

@@ -22,11 +22,10 @@ public class ContactDeletionTest extends TestBase {
     public void testContactDeletion() {
         Contact before = app.contact().all();
         ContactDate deletedContact = before.iterator().next();
-        //app.getContactHelper().initContactModification();
         app.contact().delete(deletedContact);
         app.contact().selectHomePage();
+        assertThat(app.contact().count2(), equalTo(before.size() - 1));
         Contact after = app.contact().all();
-        Assert.assertEquals(after.size(), before.size() -1);
         assertThat(after, equalTo(before.without(deletedContact)));
     }
     }

@@ -73,9 +73,9 @@ public class GroupHelper extends  HelperBase {
 
     }
 
-   // public int getGroupCount() {
-    //    return wd.findElements(By.name("selected[]")).size();
-   // }
+    public int count() {
+       return wd.findElements(By.name("selected[]")).size();
+   }
 
     public List<GroupDate> list() {
         List<GroupDate> groups = new ArrayList<GroupDate>();

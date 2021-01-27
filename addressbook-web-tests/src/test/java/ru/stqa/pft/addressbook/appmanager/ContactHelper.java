@@ -104,9 +104,9 @@ public class ContactHelper extends HelperBase {
         return isElementPresent(By.name("selected[]"));
     }
     public void fillTheForm(ContactDate contactDate) {
-               // public int getContactCount() {
-     //  return  wd.findElements(By.name("selected[]")).size();
-
+    }
+        public int count2() {
+       return  wd.findElements(By.name("selected[]")).size();
     }
     private Contact contactCache = null;
     public Contact all() {

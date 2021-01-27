@@ -71,7 +71,7 @@ if (browser.equals(BrowserType.FIREFOX)) {
     public NavigationHelper goTo() {
         return navigationHelper;
     }
-    public ContactHelper getContactHelper() {
+    public ContactHelper contact() {
         return contactHelper;
     }
     public SessionHelper getSessionHelper() { return sessionHelper; }

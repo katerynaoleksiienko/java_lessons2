@@ -3,63 +3,74 @@ package ru.stqa.pft.addressbook.model;
 import java.util.Objects;
 
 public class ContactDate {
-    private  int id;
-    private final String firstname;
-    private final String lastname;
-    private final String nickname;
-    private final String company;
-    private final String address;
+    private  int id = Integer.MAX_VALUE;
+    private  String firstname;
+    private  String lastname;
+    private  String nickname;
+    private  String company;
+    private String address;
     private String group;
 
-    public ContactDate( String firstname, String lastname, String nickname, String company, String address, String group) {
-        this.id = 0;
+    public ContactDate withFirstname(String firstname) {
         this.firstname = firstname;
-        this.lastname = lastname;
-        this.nickname = nickname;
-        this.company = company;
-        this.address = address;
-        this.group = group;
+        return this;
     }
 
-    public ContactDate(int id, String firstname, String lastname, String nickname, String company, String address, String group) {
-        this.id = id;
-        this.firstname = firstname;
+    public ContactDate withLastname(String lastname) {
         this.lastname = lastname;
+        return this;
+    }
+
+    public ContactDate withNickname(String nickname) {
         this.nickname = nickname;
+        return this;
+    }
+
+    public ContactDate withCompany(String company) {
         this.company = company;
+        return this;
+    }
+
+    public ContactDate withAddress(String address) {
         this.address = address;
+        return this;
+    }
+
+    public ContactDate withGroup(String group) {
         this.group = group;
+        return this;
     }
 
     public int getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public ContactDate withId(int id) {
         this.id = id;
+        return this;
     }
 
-    public String getFirstname() {
+    public String withFirstname() {
         return firstname;
     }
 
-    public String getLastname() {
+    public String withLastname() {
         return lastname;
     }
 
-    public String getNickname() {
+    public String withNickname() {
         return nickname;
     }
 
-    public String getCompany() {
+    public String withCompany() {
         return company;
     }
 
-    public String getAddress() {
+    public String withAddress() {
         return address;
     }
 
-    public String getGroup() {
+    public String withGroup() {
         return group;
     }
 
@@ -69,8 +80,7 @@ public class ContactDate {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         ContactDate that = (ContactDate) o;
-        return id == that.id &&
-                Objects.equals(firstname, that.firstname) &&
+        return  Objects.equals(firstname, that.firstname) &&
                 Objects.equals(lastname, that.lastname);
     }
 
@@ -87,5 +97,4 @@ public class ContactDate {
                 ", lastname='" + lastname + '\'' +
                 '}';
     }
-
 }

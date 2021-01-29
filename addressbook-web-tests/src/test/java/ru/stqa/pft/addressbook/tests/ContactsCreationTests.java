@@ -16,7 +16,8 @@ public class ContactsCreationTests extends TestBase {
       app.contact().selectHomePage();
        Contact before = app.contact().all();
         app.contact().addNewContact();
-        ContactDate contact = new ContactDate().withFirstname("Test1").withLastname("Test2").withNickname("Test3").withCompany("Test4").withAddress("Test5").withGroup("Test6");
+        ContactDate contact = new ContactDate().withFirstname("Test1").withLastname("Test2").withNickname("Test3")
+                .withCompany("Test4").withAddress("Test5").withMobilePhone("222222").withEmail("ghgh").withGroup("Test6");
         app.contact().fillTheForm(contact, true);
         app.contact().submitForm();
         app.contact().selectHomePage();
@@ -25,7 +26,7 @@ public class ContactsCreationTests extends TestBase {
         assertThat(after, equalTo(
                before.withAdded(contact.withId(after.stream().mapToInt((c)  -> c.getId()).max().getAsInt()))));
     }
-    @Test
+    @Test (enabled = false)
     public void testBadContactsCreation() {
         app.contact().selectHomePage();
         Contact before = app.contact().all();

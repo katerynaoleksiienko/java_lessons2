@@ -10,6 +10,54 @@ public class ContactDate {
     private  String company;
     private String address;
     private String group;
+    private String mobilephone;
+    private String homephone;
+    private String workphone;
+    private String email;
+    private String allphone;
+    private String email2;
+    private String email3;
+    private String allAddresses;
+    private String allEmailAddresses;
+
+    public String getAllphone() {
+        return allphone;
+    }
+    public ContactDate withEmail2(String email2) {
+        this.email2 = email2;
+        return this;
+    }
+
+    public ContactDate withEmail3(String email3) {
+        this.email3 = email3;
+        return this;
+    }
+    public ContactDate withHomePhone(String homePhone) {
+        this.homephone = homePhone;
+        return this;
+    }
+
+    public ContactDate withWorkPhone(String workPhone) {
+        this.workphone = workPhone;
+        return this;
+    }
+    public ContactDate withEmail(String email) {
+        this.email = email;
+        return this;
+    }
+
+
+    public ContactDate withAllAddresses(String allAddresses) {
+        this.allAddresses = allAddresses;
+        return this;
+    }
+
+    public ContactDate withAllEmailAddresses(String allEmailAddresses) {
+        this.allEmailAddresses = allEmailAddresses;
+        return this;
+    }
+
+
 
     public ContactDate withFirstname(String firstname) {
         this.firstname = firstname;
@@ -50,30 +98,72 @@ public class ContactDate {
         return this;
     }
 
-    public String withFirstname() {
+    public String getFirstname() {
         return firstname;
     }
-
-    public String withLastname() {
+    public ContactDate withMobilePhone(String mobilephone) {
+        this.mobilephone = mobilephone;
+        return this;
+    }
+    public String getLastname() {
         return lastname;
     }
 
-    public String withNickname() {
+    public String getNickname() {
         return nickname;
     }
 
-    public String withCompany() {
+    public String getCompany() {
         return company;
     }
-
-    public String withAddress() {
-        return address;
-    }
-
-    public String withGroup() {
+    public String getGroup() {
         return group;
     }
 
+    public String getAddress() {
+        return address;
+    }
+    public String getHomePhone() {
+        return homephone;
+    }
+
+    public String getMobilePhone() {
+        return mobilephone;
+    }
+    public String getEmail() {
+        return email;
+    }
+
+
+    public String getWorkPhone() {
+        return workphone;
+    }
+
+    public String getAllPhone() {
+        return allphone;
+    }
+    public ContactDate withAllPhone(String allPhone) {
+        this.allphone = allPhone;
+        return this;
+    }
+
+    public String getAllAddresses() {
+        return allAddresses;
+    }
+
+    public String getAllEmailAddresses() {
+        return allEmailAddresses;
+    }
+
+
+    @Override
+    public String toString() {
+        return "ContactDate{" +
+                "id=" + id +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                '}';
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -89,12 +179,4 @@ public class ContactDate {
         return Objects.hash(id, firstname, lastname);
     }
 
-    @Override
-    public String toString() {
-        return "ContactDate{" +
-                "id='" + id + '\'' +
-                ", firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
-                '}';
-    }
 }

@@ -20,9 +20,7 @@ public class ContactDate {
     private String allAddresses;
     private String allEmailAddresses;
 
-    public String getAllphone() {
-        return allphone;
-    }
+
     public ContactDate withEmail2(String email2) {
         this.email2 = email2;
         return this;
@@ -56,9 +54,6 @@ public class ContactDate {
         this.allEmailAddresses = allEmailAddresses;
         return this;
     }
-
-
-
     public ContactDate withFirstname(String firstname) {
         this.firstname = firstname;
         return this;
@@ -89,6 +84,7 @@ public class ContactDate {
         return this;
     }
 
+
     public int getId() {
         return id;
     }
@@ -101,13 +97,23 @@ public class ContactDate {
     public String getFirstname() {
         return firstname;
     }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public String getHomePhone() {
+        return homephone;
+    }
+
+    public String getGroup() {
+        return group;
+    }
     public ContactDate withMobilePhone(String mobilephone) {
         this.mobilephone = mobilephone;
         return this;
     }
-    public String getLastname() {
-        return lastname;
-    }
+
 
     public String getNickname() {
         return nickname;
@@ -116,15 +122,10 @@ public class ContactDate {
     public String getCompany() {
         return company;
     }
-    public String getGroup() {
-        return group;
-    }
+
 
     public String getAddress() {
         return address;
-    }
-    public String getHomePhone() {
-        return homephone;
     }
 
     public String getMobilePhone() {
@@ -134,15 +135,21 @@ public class ContactDate {
         return email;
     }
 
-
     public String getWorkPhone() {
         return workphone;
+    }
+    public String getEmail2() {
+        return email2;
+    }
+    public String getEmail3() {
+        return email3;
     }
 
     public String getAllPhone() {
         return allphone;
     }
-    public ContactDate withAllPhone(String allPhone) {
+
+public ContactDate withAllPhone(String allPhone) {
         this.allphone = allPhone;
         return this;
     }
@@ -150,6 +157,7 @@ public class ContactDate {
     public String getAllAddresses() {
         return allAddresses;
     }
+
 
     public String getAllEmailAddresses() {
         return allEmailAddresses;
@@ -179,4 +187,5 @@ public class ContactDate {
         return Objects.hash(id, firstname, lastname);
     }
 
-}
+    }
+

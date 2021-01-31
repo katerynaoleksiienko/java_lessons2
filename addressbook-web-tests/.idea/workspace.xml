@@ -23,23 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339325f-a5c0-45e1-b127-55889f5e2ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddressTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactEmailAddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/download.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.stqa.pft.addressbook.tests.ContactPhonesTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.stqa.pft.addressbook.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.stqa.pft.addressbook.tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.stqa.pft.addressbook.tests.ContactPhonesTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactPhonesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactPhonesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactsCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactsCreationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +113,7 @@
       <recent name="appmanager" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ContactAddressTest">
+  <component name="RunManager" selected="Gradle.ContactsCreationTests.testContactsCreation">
     <configuration name="ContactAddressTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -182,12 +171,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ContactModificationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ContactsCreationTests.testContactsCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.tests.ContactModificationTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.tests.ContactsCreationTests.testContactsCreation&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -201,12 +190,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ContactPhonesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ContactsCreationTests.testCurrentDir" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.tests.ContactPhonesTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.tests.ContactsCreationTests.testCurrentDir&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -281,22 +270,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.ContactPhonesTest" />
-      <item itemvalue="Gradle.ContactModificationTests" />
       <item itemvalue="Gradle.ContactAddressTest" />
       <item itemvalue="Gradle.ContactEmailAddressTest" />
       <item itemvalue="Gradle.ContactAddressTest.testContactAddresses" />
       <item itemvalue="TestNG.sandbox" />
       <item itemvalue="TestNG.Unnamed" />
       <item itemvalue="TestNG.ContactsCreationTests" />
+      <item itemvalue="Gradle.ContactsCreationTests.testCurrentDir" />
+      <item itemvalue="Gradle.ContactsCreationTests.testContactsCreation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ContactsCreationTests.testContactsCreation" />
+        <item itemvalue="Gradle.ContactsCreationTests.testCurrentDir" />
         <item itemvalue="Gradle.ContactAddressTest" />
         <item itemvalue="Gradle.ContactAddressTest.testContactAddresses" />
         <item itemvalue="Gradle.ContactEmailAddressTest" />
-        <item itemvalue="Gradle.ContactPhonesTest" />
-        <item itemvalue="Gradle.ContactModificationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -327,10 +316,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="7" key="#Project_Structure" timestamp="1611490340398">
+    <state x="0" y="7" key="#Project_Structure" timestamp="1612115340591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="0" y="7" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1611490340398" />
+    <state x="0" y="7" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1612115340591" />
     <state x="353" y="0" width="1092" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611039971814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -339,10 +328,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="566" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1610655101116" />
-    <state x="803" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1611909089742">
+    <state x="803" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1612114607618">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="803" y="178" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1611909089742" />
+    <state x="803" y="178" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1612114607618" />
     <state x="638" y="258" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1610212724567">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -383,38 +372,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="138" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1611912885055" />
-    <state width="1556" height="225" key="GridCell.Tab.0.bottom" timestamp="1611937978999">
+    <state width="702" height="114" key="GridCell.Tab.0.bottom" timestamp="1612117337801">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="225" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611937978999" />
-    <state width="1556" height="225" key="GridCell.Tab.0.center" timestamp="1611937978998">
+    <state width="702" height="114" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612117337801" />
+    <state width="702" height="114" key="GridCell.Tab.0.center" timestamp="1612117337801">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="225" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1611937978998" />
-    <state width="1556" height="225" key="GridCell.Tab.0.left" timestamp="1611937978998">
+    <state width="702" height="114" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612117337801" />
+    <state width="702" height="114" key="GridCell.Tab.0.left" timestamp="1612117337801">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="225" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1611937978998" />
-    <state width="1556" height="225" key="GridCell.Tab.0.right" timestamp="1611937978998">
+    <state width="702" height="114" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612117337801" />
+    <state width="702" height="114" key="GridCell.Tab.0.right" timestamp="1612117337801">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="225" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1611937978998" />
-    <state width="1556" height="225" key="GridCell.Tab.1.bottom" timestamp="1611937978999">
+    <state width="702" height="114" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612117337801" />
+    <state width="1556" height="225" key="GridCell.Tab.1.bottom" timestamp="1611945771368">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="225" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611937978999" />
-    <state width="1556" height="225" key="GridCell.Tab.1.center" timestamp="1611937978999">
+    <state width="1556" height="225" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611945771368" />
+    <state width="1556" height="225" key="GridCell.Tab.1.center" timestamp="1611945771367">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="225" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1611937978999" />
-    <state width="1556" height="225" key="GridCell.Tab.1.left" timestamp="1611937978999">
+    <state width="1556" height="225" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1611945771367" />
+    <state width="1556" height="225" key="GridCell.Tab.1.left" timestamp="1611945771367">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="225" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1611937978999" />
-    <state width="1556" height="225" key="GridCell.Tab.1.right" timestamp="1611937978999">
+    <state width="1556" height="225" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1611945771367" />
+    <state width="1556" height="225" key="GridCell.Tab.1.right" timestamp="1611945771368">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="225" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1611937978999" />
+    <state width="1556" height="225" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1611945771368" />
     <state x="380" y="172" key="IDE.errors.dialog" timestamp="1607519145409">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

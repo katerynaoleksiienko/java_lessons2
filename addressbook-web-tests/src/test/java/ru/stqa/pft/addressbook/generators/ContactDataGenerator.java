@@ -27,23 +27,21 @@ public class ContactDataGenerator {
         JCommander jCommander = new JCommander(generator);
         try {
             jCommander.parse(args);
-        } catch (ParameterException ex) {
+        }catch (ParameterException ex) {
             jCommander.usage();
         }
         generator.run();
     }
-
     private void run() throws IOException {
-        List<ContactDate> contact = generateContacts(count);
+    List<ContactDate> contact = generateContacts(count);
         if (format.equals("csv")) {
             saveCsv(contact, new File(file));
-        } else if (format.equals("xml")) {
+        } else if(format.equals("xml")){
             saveCsv(contact, new File(file));
         } else {
             System.out.println("Неизвесный формат" + format);
         }
-    }
-
+}
     private static void saveCsv(List<ContactDate> contacts, File file) throws IOException {
         Writer writer = new FileWriter(file);
         for (ContactDate contact : contacts) {
@@ -51,23 +49,12 @@ public class ContactDataGenerator {
         }
         writer.close();
     }
-
-    private void saveXml(List<ContactDate> contacts, File file) throws IOException {
-        XStream xStream = new XStream();
-        xStream.processAnnotations(ContactDate.class);
-        String xml = xStream.toXML(contacts);
-        Writer writer = new FileWriter(file);
-        writer.write(xml);
-        writer.close();
-    }
-
     private static List<ContactDate> generateContacts(int count) {
         List<ContactDate> contacts = new ArrayList<ContactDate>();
         for (int i = 0; i < count; i++) {
             contacts.add(new ContactDate().withFirstname(String.format("FirstName %s", i))
                     .withLastname(String.format("LastName %s", i)).withAddress(String.format("Address %s", i)).withMobilePhone(String.format("mobilephone %s", i)).withEmail(String.format("emailaddress %s", i))
-                    .withGroup("[none]").withPhoto(new File("src/test/resources/123.png")));
-        }
-            return contacts;
-        }
+                    .withGroup("[none]").withPhoto(new File("src/test/resources/123.jpg")));        }
+        return contacts;
     }
+}

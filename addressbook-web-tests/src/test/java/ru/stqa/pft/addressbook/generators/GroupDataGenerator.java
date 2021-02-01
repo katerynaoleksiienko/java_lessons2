@@ -4,6 +4,7 @@ import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
 import ru.stqa.pft.addressbook.model.GroupDate;
 import com.beust.jcommander.ParameterException;
+import com.thoughtworks.xstream.XStream;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -20,7 +21,8 @@ public class GroupDataGenerator {
     public  int count;
     @Parameter(names = "-f", description =  "Target file")
     public  String file;
-    
+    @Parameter(names = "-d", description = "Data format")
+    public String format;
     public static void main(String[] args) throws IOException {
         GroupDataGenerator generator = new GroupDataGenerator();
         JCommander jCommander = new JCommander(generator);
@@ -34,7 +36,13 @@ public class GroupDataGenerator {
 
     private void run() throws IOException {
         List<GroupDate> groups = generateGroups(count);
-        saveCsv(groups, new File(file));
+        if (format.equals("csv")) {
+            saveCsv(groups, new File(file));
+        } else if(format.equals("xml")){
+            saveCsv(groups, new File(file));
+        } else {
+            System.out.println("Неизвесный формат" + format);
+        }
     }
 
     private void saveCsv(List<GroupDate> groups, File file) throws IOException {
@@ -42,6 +50,14 @@ public class GroupDataGenerator {
         for (GroupDate group : groups) {
             writer.write(String.format("%s;%s;%s\n", group.getName(), group.getHeader(), group.getFooter()));
         }
+        writer.close();
+    }
+    private void saveXml(List<GroupDate> groups, File file) throws IOException {
+        XStream xStream = new XStream();
+        xStream.processAnnotations(GroupDate.class);
+        String xml = xStream.toXML(groups);
+        Writer writer = new FileWriter(file);
+        writer.write(xml);
         writer.close();
     }
 

@@ -1,10 +1,10 @@
-FirstName 0;LastName 0;Address 0
-FirstName 1;LastName 1;Address 1
-FirstName 2;LastName 2;Address 2
-FirstName 3;LastName 3;Address 3
-FirstName 4;LastName 4;Address 4
-FirstName 5;LastName 5;Address 5
-FirstName 6;LastName 6;Address 6
-FirstName 7;LastName 7;Address 7
-FirstName 8;LastName 8;Address 8
-FirstName 9;LastName 9;Address 9
+FirstName 0;LastName 0;Address 0;mobilephone 0;emailaddress 0;[none];src\test\resources\123.jpg
+FirstName 1;LastName 1;Address 1;mobilephone 1;emailaddress 1;[none];src\test\resources\123.jpg
+FirstName 2;LastName 2;Address 2;mobilephone 2;emailaddress 2;[none];src\test\resources\123.jpg
+FirstName 3;LastName 3;Address 3;mobilephone 3;emailaddress 3;[none];src\test\resources\123.jpg
+FirstName 4;LastName 4;Address 4;mobilephone 4;emailaddress 4;[none];src\test\resources\123.jpg
+FirstName 5;LastName 5;Address 5;mobilephone 5;emailaddress 5;[none];src\test\resources\123.jpg
+FirstName 6;LastName 6;Address 6;mobilephone 6;emailaddress 6;[none];src\test\resources\123.jpg
+FirstName 7;LastName 7;Address 7;mobilephone 7;emailaddress 7;[none];src\test\resources\123.jpg
+FirstName 8;LastName 8;Address 8;mobilephone 8;emailaddress 8;[none];src\test\resources\123.jpg
+FirstName 9;LastName 9;Address 9;mobilephone 9;emailaddress 9;[none];src\test\resources\123.jpg

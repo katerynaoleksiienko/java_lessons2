@@ -4,23 +4,39 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import ru.stqa.pft.addressbook.model.Contact;
 import ru.stqa.pft.addressbook.model.ContactDate;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 import java.io.File;
-
+import java.io.BufferedReader;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
+import com.thoughtworks.xstream.XStream;
+import java.util.stream.Collectors;
 
 
 public class ContactsCreationTests extends TestBase {
+    @DataProvider
+    public Iterator<Object[]> validContact() throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/contact.xml"));
+        String xml = "";        String line = reader.readLine();
+        while (line != null) {
+            xml += line;
+            line = reader.readLine();
+        }
+        XStream xStream = new XStream();
+        xStream.processAnnotations(ContactDate.class);
+        List<ContactDate> contacts = (List<ContactDate>) xStream.fromXML(xml);
+        return contacts.stream().map((g) -> new Object[] {g}).collect(Collectors.toList()).iterator();
+    }
 
-    @Test
-    public void testContactsCreation() {
-      app.contact().selectHomePage();
+    @Test(dataProvider = "validContact")
+    public void testAddressBook(ContactDate contact) throws Exception {
        Contact before = app.contact().all();
         app.contact().addNewContact();
-        File photo = new File("src/test/resources/download.png");
-        ContactDate contact = new ContactDate().withFirstname("Test1").withLastname("Test2").withPhoto(photo).withNickname("Test3")
-                .withCompany("Test4").withAddress("Test5").withMobilePhone("222222").withEmail("ghgh");
         app.contact().fillTheForm(contact, true);
         app.contact().submitForm();
         app.contact().selectHomePage();

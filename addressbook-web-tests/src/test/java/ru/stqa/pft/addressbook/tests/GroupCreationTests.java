@@ -8,16 +8,21 @@ import ru.stqa.pft.addressbook.model.Groups;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
-
+import java.io.*;
+import java.nio.Buffer;
 public class GroupCreationTests extends TestBase {
 
 
     @DataProvider
-    public Iterator<Object[]> validGroups(){
+    public Iterator<Object[]> validGroups() throws IOException {
         List<Object[]> list = new ArrayList<Object[]>();
-        list.add(new Object[]{new GroupDate().withName("Test1").withHeader("header 1").withFooter("footer1")});
-        list.add(new Object[]{new GroupDate().withName("Test2").withHeader("header 2").withFooter("footer2")});
-        list.add(new Object[]{new GroupDate().withName("Test3").withHeader("header 3").withFooter("footer3")});
+        BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/groups.csv"));
+        String line = reader.readLine();
+        while (line != null) {
+            String[] split = line.split(";");
+            list.add(new Object[] {new GroupDate().withName(split[0]).withHeader(split[1]).withFooter(split[2])});
+            line = reader.readLine();
+        }
         return list.iterator();
     }
 

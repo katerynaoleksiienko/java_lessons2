@@ -15,14 +15,24 @@ dependencies {
 }
     task testGroups(type: Test) {
         useTestNG(){
-            suites 'src/test/resources/tesing-groups.xml'
+            suites 'src/test/resources/testng-groups.xml'
+        }
+        if (projects.hasProperty('browser')){
+            systemProrerty 'browser', "${browser}"
+        }
+        if (projects.hasProperty('target')){
+            systemProrerty 'target', "${target}"
         }
     }
+
     task testContacts(type: Test) {
         useTestNG(){
             suites 'src/test/resources/testng-contacts.xml'
         }
-}
-test {
-    useTestNG()
+        if (projects.hasProperty('browser')){
+            systemProrerty 'browser', "${browser}"
+        }
+        if (projects.hasProperty('target')){
+            systemProrerty 'target', "${target}"
+        }
 }

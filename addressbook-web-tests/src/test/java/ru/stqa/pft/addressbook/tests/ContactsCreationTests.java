@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 public class ContactsCreationTests extends TestBase {
     @DataProvider
     public Iterator<Object[]> validContact() throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/contact.xml"));
+        BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/contacts.xml"));
         String xml = "";        String line = reader.readLine();
         while (line != null) {
             xml += line;
@@ -62,7 +62,7 @@ public class ContactsCreationTests extends TestBase {
     public void testCurrentDir(){
         File currentDir = new File(".");
         System.out.println(currentDir.getAbsolutePath());
-        File photo = new File("src/test/resources/stru.png");
+        File photo = new File("src/test/resources/download.png");
         System.out.println(photo.getAbsolutePath());
         System.out.println(photo.exists());
 }

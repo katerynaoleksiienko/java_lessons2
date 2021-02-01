@@ -9,17 +9,16 @@ import org.testng.annotations.BeforeMethod;
 
 public class TestBase {
 
-    protected static final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
+    protected static final ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
 
-    @BeforeSuite
+    @BeforeSuite(alwaysRun = true)
     public void setUp() throws Exception {
         app.init();
 
     }
 
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
     public void tearDown() throws Exception {
         app.stop();
     }
-
 }

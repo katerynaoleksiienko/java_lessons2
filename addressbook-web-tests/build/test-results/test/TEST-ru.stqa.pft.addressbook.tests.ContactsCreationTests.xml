@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.tests.GroupCreationTests" tests="2" skipped="1" failures="0" errors="0" timestamp="2021-02-01T10:26:01" hostname="KATYA-ПК" time="3.444">
+<testsuite name="ru.stqa.pft.addressbook.tests.ContactsCreationTests" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-02-01T11:35:21" hostname="KATYA-ПК" time="0.0">
   <properties/>
-  <testcase name="testBadGroupCreation" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="3.417"/>
-  <testcase name="testGroupCreate" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="0.0">
+  <testcase name="testAddressBook" classname="ru.stqa.pft.addressbook.tests.ContactsCreationTests" time="0.0">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Utils] [ERROR] [Error] java.io.FileNotFoundException: src\test\resources\groups.xml (Не удается найти указанный файл)
+  <system-err><![CDATA[[Utils] [ERROR] [Error] java.io.FileNotFoundException: src\test\resources\contact.xml (Не удается найти указанный файл)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
 	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
 	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
 	at java.io.FileReader.&lt;init&gt;(FileReader.java:58)
-	at ru.stqa.pft.addressbook.tests.GroupCreationTests.validGroups(GroupCreationTests.java:22)
+	at ru.stqa.pft.addressbook.tests.ContactsCreationTests.validContact(ContactsCreationTests.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

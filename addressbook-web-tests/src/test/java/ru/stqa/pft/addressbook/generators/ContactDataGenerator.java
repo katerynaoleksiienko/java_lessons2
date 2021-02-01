@@ -37,7 +37,7 @@ public class ContactDataGenerator {
         if (format.equals("csv")) {
             saveCsv(contact, new File(file));
         } else if(format.equals("xml")){
-            saveCsv(contact, new File(file));
+            saveXml(contact, new File(file));
         } else {
             System.out.println("Неизвесный формат" + format);
         }
@@ -49,12 +49,21 @@ public class ContactDataGenerator {
         }
         writer.close();
     }
+    private void saveXml(List<ContactDate> contacts, File file) throws IOException {
+        XStream xStream = new XStream();
+        xStream.processAnnotations(ContactDate.class);
+        String xml = xStream.toXML(contacts);
+        Writer writer = new FileWriter(file);
+        writer.write(xml);
+        writer.close();
+    }
     private static List<ContactDate> generateContacts(int count) {
         List<ContactDate> contacts = new ArrayList<ContactDate>();
         for (int i = 0; i < count; i++) {
             contacts.add(new ContactDate().withFirstname(String.format("FirstName %s", i))
-                    .withLastname(String.format("LastName %s", i)).withAddress(String.format("Address %s", i)).withMobilePhone(String.format("mobilephone %s", i)).withEmail(String.format("emailaddress %s", i))
-                    .withGroup("[none]").withPhoto(new File("src/test/resources/123.jpg")));        }
+                    .withLastname(String.format("LastName %s", i)).withAddress(String.format("Address %s", i))
+                    .withMobilePhone(String.format("mobilephone %s", i)).withEmail(String.format("emailaddress %s", i))
+                    .withGroup("[none]").withPhoto(new File("src/test/resources/download.png")));        }
         return contacts;
     }
 }

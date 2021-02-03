@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339325f-a5c0-45e1-b127-55889f5e2ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/DBConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HBConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HBContactConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -37,7 +39,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/testContacts/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupDate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +124,7 @@
       <recent name="appmanager" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DBConnectionTest">
+  <component name="RunManager" selected="TestNG.HBConnectionContactTest">
     <configuration name="GroupDataGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.generators.GroupDataGenerator" />
       <module name="java_lessons2.test" />
@@ -130,25 +132,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="ContactModificationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.tests.ContactModificationTests&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":testContacts" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="ContactsCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -226,6 +209,25 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="HBContactConnectionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.tests.HBContactConnectionTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ContactsCreationTests" type="TestNG">
       <module name="java_lessons2.test" />
       <useClassPathOnly />
@@ -286,6 +288,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HBConnectionContactTest" type="TestNG">
+      <module name="java_lessons2.test" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.HBContactConnectionTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HBConnectionTest" type="TestNG">
+      <module name="java_lessons2.test" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.HBConnectionTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
       <module name="org.example.java_lessons2.test" />
       <useClassPathOnly />
@@ -330,10 +372,12 @@
       <item itemvalue="Application.GroupDataGenerator" />
       <item itemvalue="Gradle.GroupCreationTests" />
       <item itemvalue="Gradle.ContactsCreationTests" />
-      <item itemvalue="Gradle.ContactModificationTests" />
       <item itemvalue="Gradle.DBConnectionTest.testDbConnection" />
       <item itemvalue="Gradle.DBConnectionTest" />
+      <item itemvalue="Gradle.HBContactConnectionTest" />
+      <item itemvalue="TestNG.HBConnectionTest" />
       <item itemvalue="TestNG.DBConnectionTest" />
+      <item itemvalue="TestNG.HBConnectionContactTest" />
       <item itemvalue="TestNG.GroupCreationTests" />
       <item itemvalue="TestNG.sandbox" />
       <item itemvalue="TestNG.Unnamed" />
@@ -341,11 +385,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HBContactConnectionTest" />
         <item itemvalue="Gradle.DBConnectionTest" />
         <item itemvalue="Gradle.DBConnectionTest.testDbConnection" />
         <item itemvalue="Gradle.GroupCreationTests" />
         <item itemvalue="Gradle.ContactsCreationTests" />
-        <item itemvalue="Gradle.ContactModificationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -380,10 +424,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="0" y="7" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1612115340591" />
-    <state x="358" y="210" width="842" height="626" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612269989762">
+    <state x="430" y="162" width="842" height="698" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612344325031">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="358" y="210" width="842" height="626" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1612269989762" />
+    <state x="430" y="162" width="842" height="698" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1612344325031" />
     <state x="566" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610655101116">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -396,10 +440,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="638" y="258" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1610212724567" />
-    <state x="628" y="219" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612269978021">
+    <state x="628" y="219" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612344324107">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="628" y="219" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1612269978021" />
+    <state x="628" y="219" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1612344324107" />
     <state x="70" y="117" width="589" height="509" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1611067545758">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -432,22 +476,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="138" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1612120682360" />
-    <state width="1176" height="113" key="GridCell.Tab.0.bottom" timestamp="1612269995130">
+    <state width="1556" height="318" key="GridCell.Tab.0.bottom" timestamp="1612344965560">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1176" height="113" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612269995130" />
-    <state width="1176" height="113" key="GridCell.Tab.0.center" timestamp="1612269995130">
+    <state width="1556" height="318" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612344965560" />
+    <state width="1556" height="318" key="GridCell.Tab.0.center" timestamp="1612344965560">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1176" height="113" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612269995130" />
-    <state width="1176" height="113" key="GridCell.Tab.0.left" timestamp="1612269995130">
+    <state width="1556" height="318" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612344965560" />
+    <state width="1556" height="318" key="GridCell.Tab.0.left" timestamp="1612344965559">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1176" height="113" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612269995130" />
-    <state width="1176" height="113" key="GridCell.Tab.0.right" timestamp="1612269995130">
+    <state width="1556" height="318" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612344965559" />
+    <state width="1556" height="318" key="GridCell.Tab.0.right" timestamp="1612344965560">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1176" height="113" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612269995130" />
+    <state width="1556" height="318" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612344965560" />
     <state width="1556" height="225" key="GridCell.Tab.1.bottom" timestamp="1611945771368">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

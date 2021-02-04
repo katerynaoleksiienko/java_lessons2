@@ -12,8 +12,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class ContactPhonesTest extends TestBase {
     @BeforeMethod
     public void ensurePreconditions(){
-        app.contact().selectHomePage();
-        if (app.contact().all().size() == 0) {
+       // app.contact().selectHomePage();
+        if (app.db().contact().size() == 0) {
+            app.contact().selectHomePage();
             app.contact().createContact(new ContactDate().withFirstname("Test").withGroup("[none]"));
         }
     }
@@ -22,7 +23,7 @@ public class ContactPhonesTest extends TestBase {
     @Test
     public void testContactPhones() {
         app.goTo().gotoHomePage();
-        ContactDate contact = app.contact().all().iterator().next();
+        ContactDate contact = app.db().contact().iterator().next();
         ContactDate contactInfoFromEditFrom = app.contact().infoFromEditFrom(contact);
 //assertThat(contact.getHomePhone(), equals(cleaned(contactInfoFromEditFrom.getHomePhone())));
 

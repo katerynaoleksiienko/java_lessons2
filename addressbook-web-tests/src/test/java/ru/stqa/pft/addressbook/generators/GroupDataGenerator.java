@@ -39,7 +39,7 @@ public class GroupDataGenerator {
         if (format.equals("csv")) {
             saveCsv(groups, new File(file));
         } else if(format.equals("xml")){
-            saveCsv(groups, new File(file));
+           saveXml(groups, new File(file));
         } else {
             System.out.println("Неизвесный формат" + format);
         }

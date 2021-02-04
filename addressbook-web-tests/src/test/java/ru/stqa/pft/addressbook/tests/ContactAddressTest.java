@@ -12,16 +12,17 @@ public class ContactAddressTest extends TestBase {
 
     @BeforeMethod
     public void ensurePreconditions() {
-        app.contact().selectHomePage();
-        if (app.contact().all().size() == 0) {
-            app.contact().createContact(new ContactDate().withFirstname("Test").withGroup("[none]"));
+        if (app.db().contact().size() == 0) {
+            app.contact().selectHomePage();
+            app.contact().createContact(new ContactDate().withFirstname("Dima").withGroup("[none]"));
+
         }
     }
 
     @Test
     public void testContactAddresses() {
         app.goTo().gotoHomePage();
-        ContactDate contact = app.contact().all().iterator().next();
+        ContactDate contact = app.db().contact().iterator().next();
         ContactDate contactInfoFromEditForm = app.contact().infoFromEditFrom(contact);
         assertThat(contact.getAddress(), equalTo(mergeAddresses(contactInfoFromEditForm)));
     }

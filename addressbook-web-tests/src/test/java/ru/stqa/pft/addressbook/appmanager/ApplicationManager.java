@@ -21,10 +21,12 @@ public class ApplicationManager {
     WebDriver wd;
 
     private SessionHelper sessionHelper;
-    private  NavigationHelper navigationHelper ;
-    private  GroupHelper groupHelper;
+    private NavigationHelper navigationHelper;
+    private GroupHelper groupHelper;
     private ContactHelper contactHelper;
     private String browser;
+    private DbHelper dbHelper;
+
 
     public ApplicationManager(String browser) {
         this.browser = browser;
@@ -34,19 +36,19 @@ public class ApplicationManager {
     public void init() throws IOException {
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
-
+        dbHelper = new DbHelper();
         if (browser.equals(BrowserType.CHROME)) {
-    wd = new ChromeDriver();
-} else if (browser.equals(BrowserType.FIREFOX)) {
-    wd = new FirefoxDriver();
-} else if (browser.equals(BrowserType.IE)) {
-        wd = new InternetExplorerDriver();
+            wd = new ChromeDriver();
+        } else if (browser.equals(BrowserType.FIREFOX)) {
+            wd = new FirefoxDriver();
+        } else if (browser.equals(BrowserType.IE)) {
+            wd = new InternetExplorerDriver();
 
-    }
+        }
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         wd.get(properties.getProperty("web.baseUrl"));
         groupHelper = new GroupHelper(wd);
-        navigationHelper =new NavigationHelper(wd);
+        navigationHelper = new NavigationHelper(wd);
         sessionHelper = new SessionHelper(wd);
         contactHelper = new ContactHelper(wd);
         sessionHelper.login(properties.getProperty("web.adminLogin"), properties.getProperty("web.adminPassword"));
@@ -58,21 +60,21 @@ public class ApplicationManager {
     }
 
     private boolean isElementPresent(By by) {
-      try {
-        wd.findElement(by);
-        return true;
-      } catch (NoSuchElementException e) {
-        return false;
-      }
+        try {
+            wd.findElement(by);
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
     }
 
     private boolean isAlertPresent() {
-      try {
-        wd.switchTo().alert();
-        return true;
-      } catch (NoAlertPresentException e) {
-        return false;
-      }
+        try {
+            wd.switchTo().alert();
+            return true;
+        } catch (NoAlertPresentException e) {
+            return false;
+        }
     }
 
     public GroupHelper group() {
@@ -82,8 +84,16 @@ public class ApplicationManager {
     public NavigationHelper goTo() {
         return navigationHelper;
     }
+
     public ContactHelper contact() {
         return contactHelper;
     }
-    public SessionHelper getSessionHelper() { return sessionHelper; }
+
+    public SessionHelper getSessionHelper() {
+        return sessionHelper;
+    }
+
+    public DbHelper db() {
+        return dbHelper;
+    }
 }

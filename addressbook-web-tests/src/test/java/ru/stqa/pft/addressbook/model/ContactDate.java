@@ -1,36 +1,82 @@
 package ru.stqa.pft.addressbook.model;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamOmitField;
+import org.hibernate.annotations.Type;
+import javax.persistence.*;
 import java.io.File;
 import java.util.Objects;
+
 @XStreamAlias("contact")
+@Entity
+@Table(name = "addressbook")
 
 public class ContactDate {
     @XStreamOmitField
+    @Id
+    @Column(name = "id")
     private  int id = Integer.MAX_VALUE;
+    @Column(name = "firstname")
     private  String firstname;
+
+    @Column(name = "lastname")
     private  String lastname;
+
+    @Column(name = "nickname")
     private  String nickname;
+
+    @Column(name = "company")
     private  String company;
+
+    @Column(name = "address")
+    @Type(type = "text")
     private String address;
+
+    @Transient
     private String group;
+
+    @Column(name = "mobile")
+    @Type(type = "text")
     private String mobilephone;
+
+    @Column(name = "home")
+    @Type(type = "text")
     private String homephone;
+
+    @Column(name = "work")
+    @Type(type = "text")
     private String workphone;
+
+    @Column(name = "email")
+    @Type(type = "text")
     private String email;
+
+    @Transient
     private String allphone;
+
+    @Column(name = "email2")
+    @Type(type = "text")
     private String email2;
+
+    @Column(name = "email3")
+    @Type(type = "text")
     private String email3;
+
+    @Transient
     private String allAddresses;
+
+    @Transient
     private String allEmailAddresses;
-    private File photo;
+
+    @Column(name = "photo")
+    @Type(type = "text")
+    private String photo;
 
     public File getPhoto() {
-        return photo;
+        return new File (photo);
     }
 
     public ContactDate withPhoto(File photo) {
-        this.photo = photo;
+        this.photo = photo.getPath();
         return this;
 
     }
@@ -128,7 +174,6 @@ public class ContactDate {
         return this;
     }
 
-
     public String getNickname() {
         return nickname;
     }
@@ -179,26 +224,37 @@ public ContactDate withAllPhone(String allPhone) {
 
 
     @Override
-    public String toString() {
-        return "ContactDate{" +
-                "id=" + id +
-                ", firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
-                '}';
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         ContactDate that = (ContactDate) o;
         return  Objects.equals(firstname, that.firstname) &&
-                Objects.equals(lastname, that.lastname);
+                Objects.equals(lastname, that.lastname) &&
+                Objects.equals(nickname, that.nickname) &&
+                Objects.equals(company, that.company) &&
+                Objects.equals(address, that.address) &&
+                Objects.equals(mobilephone, that.mobilephone) &&
+                Objects.equals(email, that.email);
+
+    }
+
+    @Override
+    public String toString() {
+        return "ContactDate{" +
+                "id=" + id +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", nickname='" + nickname + '\'' +
+                ", company='" + company + '\'' +
+                ", address='" + address + '\'' +
+                ", mobilephone='" + mobilephone + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstname, lastname);
+        return Objects.hash(id, firstname, lastname, nickname, company, address, mobilephone, email);
     }
 
     }

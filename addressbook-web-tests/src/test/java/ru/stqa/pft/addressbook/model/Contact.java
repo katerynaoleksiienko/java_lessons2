@@ -1,7 +1,10 @@
 package ru.stqa.pft.addressbook.model;
 import com.google.common.collect.ForwardingSet;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
+import java.util.Collection;
+
 
 public class Contact extends ForwardingSet<ContactDate> {
 
@@ -10,8 +13,12 @@ public class Contact extends ForwardingSet<ContactDate> {
     public Contact(Contact contacts) {
         this.delegate = new HashSet<ContactDate>(contacts.delegate);
     }
+
     public Contact() {
         this.delegate = new HashSet<ContactDate>();
+    }
+    public Contact(Collection<ContactDate> contact) {
+        this.delegate = new HashSet<ContactDate>(contact);
     }
 
     @Override

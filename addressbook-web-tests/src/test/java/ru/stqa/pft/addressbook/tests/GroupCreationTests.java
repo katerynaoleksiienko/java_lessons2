@@ -34,14 +34,14 @@ public class GroupCreationTests extends TestBase {
 
     @Test(dataProvider = "validGroups")
     public void testGroupCreate(GroupDate group) {
-    app.goTo().groupPage();
-    Groups before = app.group().all();
-   app.group().create(group);
-      assertThat(app.group().count(), equalTo(before.size() + 1));
-      Groups after = app.group().all();
-    assertThat(after, equalTo(
-            before.withAdded(group.withId(after.stream().mapToInt((g)  -> g.getId()).max().getAsInt()))));
-  }
+        app.goTo().groupPage();
+        Groups before = app.db().group();
+        app.group().create(group);
+        assertThat(app.group().count(), equalTo(before.size() + 1));
+        Groups after = app.db().group();
+        assertThat(after, equalTo(
+                before.withAdded(group.withId(after.stream().mapToInt((g) -> g.getId()).max().getAsInt()))));
+    }
     @Test(enabled = false)
     public void testBadGroupCreation() {
         app.goTo().groupPage();

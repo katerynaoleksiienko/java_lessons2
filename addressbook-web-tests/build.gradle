@@ -27,6 +27,9 @@ dependencies {
         if (projects.hasProperty('target')){
             systemProrerty 'target', "${target}"
         }
+        if (projects.hasProperty('verifyUI')){
+            systemProrerty 'verifyUI', "${verifyUI}"
+        }
     }
 
     task testContacts(type: Test) {
@@ -38,5 +41,8 @@ dependencies {
         }
         if (projects.hasProperty('target')){
             systemProrerty 'target', "${target}"
+        }
+        if (projects.hasProperty('verifyUI')){
+            systemProrerty 'verifyUI', "${verifyUI}"
         }
 }

@@ -66,7 +66,7 @@ public class ContactsCreationTests extends TestBase {
         File photo = new File("src/test/resources/download.png");
         System.out.println(photo.getAbsolutePath());
         System.out.println(photo.exists());
-}
-
-
+        verifyContactListUI();
+  
+    }
 }

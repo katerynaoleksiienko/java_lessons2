@@ -40,6 +40,5 @@ public class DbHelper {
         session.close();
        return new Contact(result);
     }
-
 }
 

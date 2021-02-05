@@ -23,45 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339325f-a5c0-45e1-b127-55889f5e2ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactAndGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactAndGroupData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddToGroupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeleteFromGroupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mantis-tests/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mantis-tests/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mantis-tests/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mantis-tests/gradlew.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/contacts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/groups.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/DbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/DbHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/generators/ContactDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/generators/ContactDataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactEmailAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactEmailAddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactPhonesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactPhonesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactsCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactsCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HBConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HBConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HBContactConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HBContactConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/contacts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/groups.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactAndGroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactAndGroupData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +129,7 @@
       <recent name="appmanager" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupDeletionTest">
+  <component name="RunManager" selected="TestNG.ContactAddToGroupTest">
     <configuration name="ContactDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.generators.ContactDataGenerator" />
       <module name="java_lessons2.test" />
@@ -618,22 +590,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="138" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1612522566484" />
-    <state width="1556" height="19" key="GridCell.Tab.0.bottom" timestamp="1612525265344">
+    <state width="1556" height="167" key="GridCell.Tab.0.bottom" timestamp="1612527252890">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="19" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612525265344" />
-    <state width="1556" height="19" key="GridCell.Tab.0.center" timestamp="1612525265343">
+    <state width="1556" height="167" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612527252890" />
+    <state width="1556" height="167" key="GridCell.Tab.0.center" timestamp="1612527252890">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="19" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612525265343" />
-    <state width="1556" height="19" key="GridCell.Tab.0.left" timestamp="1612525265343">
+    <state width="1556" height="167" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612527252890" />
+    <state width="1556" height="167" key="GridCell.Tab.0.left" timestamp="1612527252890">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="19" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612525265343" />
-    <state width="1556" height="19" key="GridCell.Tab.0.right" timestamp="1612525265344">
+    <state width="1556" height="167" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612527252890" />
+    <state width="1556" height="167" key="GridCell.Tab.0.right" timestamp="1612527252890">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="19" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612525265344" />
+    <state width="1556" height="167" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612527252890" />
     <state width="1556" height="225" key="GridCell.Tab.1.bottom" timestamp="1612472436360">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

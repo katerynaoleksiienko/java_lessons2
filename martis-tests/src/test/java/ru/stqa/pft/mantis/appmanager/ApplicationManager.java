@@ -13,10 +13,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+
 public class ApplicationManager {
 
     private Properties properties;
-    WebDriver driver;
+    WebDriver wd;
 
     private String browser;
 
@@ -31,31 +32,25 @@ public class ApplicationManager {
 
 
         if (browser.equals(BrowserType.CHROME)) {
-            driver = new ChromeDriver();
+            wd = new ChromeDriver();
         } else if (browser.equals(BrowserType.FIREFOX)) {
-            driver = new FirefoxDriver();
+            wd = new FirefoxDriver();
         }
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.get(properties.getProperty("web.baseUrl"));
+        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        wd.get(properties.getProperty("web.baseUrl"));
 
     }
-
 
     public void stop() {
-        driver.quit();
+        wd.quit();
     }
 
-    private boolean isElementPresent(By by) {
-        try {
-            driver.findElement(by);
-            return true;
-        } catch (NoSuchElementException e) {
-            return false;
-        }
+    public HttpSession newSession() {
+        return new HttpSession(this);
     }
 
-    public WebDriver.TargetLocator switchTo() {
-        return null;
+    public String getProperty(String key) {
+        return properties.getProperty(key);
     }
 
 }

@@ -106,18 +106,20 @@ public class ContactHelper extends HelperBase {
                 for (ContactDate contact: contactList) {
                     if (contact.getGroups().size() < totalDBGroupSize) {
                         homeContact();
-                        editContactById(contact.getId());
+                        //editContactById(contact.getId());
                         homeContact();
                         new Select(wd.findElement(By.name("group"))).selectByValue(String.valueOf(getGroupListContact(contact.getGroups()).iterator().next().getId()));
                         counter++;
                         break;
                     }
                 }
+
                 if (counter == 0) {
                     app.goTo().homeContact();
-                    app.contact().createContact(new ContactDate().withFirstname("Test").withLastname("Test2"));
-                    addContactToGroup(contactDate);
+                    //app.contact().createContact(new ContactDate().withFirstname("Test").withLastname("Test2"));
+                   // addContactToGroup(contactDate);
                 }
+
             } else {
                 Groups totalContactGroups =  contactDate.getGroups();
                 new Select(wd.findElement(By.name("group"))).selectByValue(String.valueOf(getGroupListContact(totalContactGroups).iterator().next().getId()));
@@ -133,6 +135,9 @@ public class ContactHelper extends HelperBase {
     }
     public void homeContact() {
         click(By.linkText("home"));
+    }
+    public void clickGroupPage(){
+        click(By.xpath("//div[@id='content']/div/i/a"));
     }
     public void editContactById(int id) {
         wd.findElement(By.cssSelector("a[href*='edit.php?id=" + id + "']")).click();
@@ -176,9 +181,9 @@ public class ContactHelper extends HelperBase {
     public void addContactToGroup(ContactDate contact) {
         checkContactById(contact.getId());
         clickGroup();
-        selectGroup(contact, true);
         addGroup();
-        homeContact();
+        clickGroupPage();
+        selectGroup(contact, true);
     }
     public Contact all() {
         Contact contacts = new Contact();

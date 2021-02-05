@@ -3,180 +3,45 @@
     <firstname>FirstName 0</firstname>
     <lastname>LastName 0</lastname>
     <address>Address 0</address>
-    <group>[none]</group>
     <mobilephone>mobilephone 0</mobilephone>
     <email>emailaddress 0</email>
     <photo>src\test\resources\download.png</photo>
+    <groups/>
   </contact>
   <contact>
     <firstname>FirstName 1</firstname>
     <lastname>LastName 1</lastname>
     <address>Address 1</address>
-    <group>[none]</group>
     <mobilephone>mobilephone 1</mobilephone>
     <email>emailaddress 1</email>
     <photo>src\test\resources\download.png</photo>
+    <groups/>
   </contact>
   <contact>
     <firstname>FirstName 2</firstname>
     <lastname>LastName 2</lastname>
     <address>Address 2</address>
-    <group>[none]</group>
     <mobilephone>mobilephone 2</mobilephone>
     <email>emailaddress 2</email>
     <photo>src\test\resources\download.png</photo>
+    <groups/>
   </contact>
   <contact>
     <firstname>FirstName 3</firstname>
     <lastname>LastName 3</lastname>
     <address>Address 3</address>
-    <group>[none]</group>
     <mobilephone>mobilephone 3</mobilephone>
     <email>emailaddress 3</email>
     <photo>src\test\resources\download.png</photo>
+    <groups/>
   </contact>
   <contact>
     <firstname>FirstName 4</firstname>
     <lastname>LastName 4</lastname>
     <address>Address 4</address>
-    <group>[none]</group>
     <mobilephone>mobilephone 4</mobilephone>
     <email>emailaddress 4</email>
     <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 5</firstname>
-    <lastname>LastName 5</lastname>
-    <address>Address 5</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 5</mobilephone>
-    <email>emailaddress 5</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 6</firstname>
-    <lastname>LastName 6</lastname>
-    <address>Address 6</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 6</mobilephone>
-    <email>emailaddress 6</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 7</firstname>
-    <lastname>LastName 7</lastname>
-    <address>Address 7</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 7</mobilephone>
-    <email>emailaddress 7</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 8</firstname>
-    <lastname>LastName 8</lastname>
-    <address>Address 8</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 8</mobilephone>
-    <email>emailaddress 8</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 9</firstname>
-    <lastname>LastName 9</lastname>
-    <address>Address 9</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 9</mobilephone>
-    <email>emailaddress 9</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 10</firstname>
-    <lastname>LastName 10</lastname>
-    <address>Address 10</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 10</mobilephone>
-    <email>emailaddress 10</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 11</firstname>
-    <lastname>LastName 11</lastname>
-    <address>Address 11</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 11</mobilephone>
-    <email>emailaddress 11</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 12</firstname>
-    <lastname>LastName 12</lastname>
-    <address>Address 12</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 12</mobilephone>
-    <email>emailaddress 12</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 13</firstname>
-    <lastname>LastName 13</lastname>
-    <address>Address 13</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 13</mobilephone>
-    <email>emailaddress 13</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 14</firstname>
-    <lastname>LastName 14</lastname>
-    <address>Address 14</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 14</mobilephone>
-    <email>emailaddress 14</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 15</firstname>
-    <lastname>LastName 15</lastname>
-    <address>Address 15</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 15</mobilephone>
-    <email>emailaddress 15</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 16</firstname>
-    <lastname>LastName 16</lastname>
-    <address>Address 16</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 16</mobilephone>
-    <email>emailaddress 16</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 17</firstname>
-    <lastname>LastName 17</lastname>
-    <address>Address 17</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 17</mobilephone>
-    <email>emailaddress 17</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 18</firstname>
-    <lastname>LastName 18</lastname>
-    <address>Address 18</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 18</mobilephone>
-    <email>emailaddress 18</email>
-    <photo>src\test\resources\download.png</photo>
-  </contact>
-  <contact>
-    <firstname>FirstName 19</firstname>
-    <lastname>LastName 19</lastname>
-    <address>Address 19</address>
-    <group>[none]</group>
-    <mobilephone>mobilephone 19</mobilephone>
-    <email>emailaddress 19</email>
-    <photo>src\test\resources\download.png</photo>
+    <groups/>
   </contact>
 </list>

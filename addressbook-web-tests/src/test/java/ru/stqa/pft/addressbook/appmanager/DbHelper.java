@@ -8,6 +8,7 @@ import ru.stqa.pft.addressbook.model.ContactDate;
 import ru.stqa.pft.addressbook.model.Contact;
 import ru.stqa.pft.addressbook.model.GroupDate;
 import ru.stqa.pft.addressbook.model.Groups;
+import ru.stqa.pft.addressbook.model.*;
 
 import java.util.List;
 
@@ -39,4 +40,6 @@ public class DbHelper {
         session.close();
        return new Contact(result);
     }
+
 }
+

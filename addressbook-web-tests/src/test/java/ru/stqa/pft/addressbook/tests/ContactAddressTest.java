@@ -13,9 +13,8 @@ public class ContactAddressTest extends TestBase {
     @BeforeMethod
     public void ensurePreconditions() {
         if (app.db().contact().size() == 0) {
-            app.contact().selectHomePage();
-            app.contact().createContact(new ContactDate().withFirstname("Dima").withGroup("[none]"));
-
+            app.contact().homeContact();
+            app.contact().createContact(new ContactDate().withFirstname("Dima"));
         }
     }
 

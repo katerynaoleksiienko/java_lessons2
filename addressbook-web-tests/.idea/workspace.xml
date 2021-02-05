@@ -23,18 +23,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339325f-a5c0-45e1-b127-55889f5e2ab4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactAndGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactAndGroupData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddToGroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeleteFromGroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mantis-tests/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mantis-tests/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mantis-tests/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mantis-tests/gradlew.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/contacts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/groups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/DbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/DbHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/generators/ContactDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/generators/ContactDataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactEmailAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactEmailAddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactPhonesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactPhonesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactsCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactsCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HBConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HBConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HBContactConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HBContactConnectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/contacts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/groups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +70,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../mantis-tests">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/../sandbox">
@@ -61,9 +91,17 @@
         <task path="$PROJECT_DIR$/../sandbox">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/../mantis-tests">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java_lessons2" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -102,10 +140,10 @@
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mantis-tests/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.1285347" />
+    <property name="project.structure.side.proportion" value="0.17872971" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -120,6 +158,20 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.GroupDeletionTest">
+    <configuration name="ContactDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.generators.ContactDataGenerator" />
+      <module name="java_lessons2.test" />
+      <option name="PROGRAM_PARAMETERS" value="-f src/test/resources/contacts.xml -c 5 -d xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.generators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GroupDataGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.generators.GroupDataGenerator" />
       <module name="java_lessons2.test" />
@@ -139,12 +191,52 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ContactAddToGroupTest" type="TestNG">
+      <module name="java_lessons2.test" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactAddToGroupTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactAddressTest" type="TestNG">
       <module name="java_lessons2.test" />
       <useClassPathOnly />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactAddressTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactDeleteFromGroupTest" type="TestNG">
+      <module name="java_lessons2.test" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactDeleteFromGroupTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -359,6 +451,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed (1)" type="TestNG" nameIsGenerated="true">
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
       <module name="org.example.java_lessons2.test" />
       <useClassPathOnly />
@@ -401,9 +510,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.GroupDataGenerator" />
+      <item itemvalue="Application.ContactDataGenerator" />
       <item itemvalue="Shell Script.Unnamed" />
+      <item itemvalue="TestNG.ContactDeleteFromGroupTest" />
       <item itemvalue="TestNG.GroupModificationTest" />
       <item itemvalue="TestNG.GroupDeletionTest" />
+      <item itemvalue="TestNG.Unnamed (1)" />
+      <item itemvalue="TestNG.ContactAddToGroupTest" />
       <item itemvalue="TestNG.ContactPhonesTest" />
       <item itemvalue="TestNG.ContactModificationTest" />
       <item itemvalue="TestNG.ContactAddressTest" />
@@ -416,6 +529,11 @@
       <item itemvalue="TestNG.Unnamed" />
       <item itemvalue="TestNG.ContactsCreationTests" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ContactDataGenerator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -448,10 +566,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="0" y="7" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1612115340591" />
-    <state x="408" y="0" width="842" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612452743749">
+    <state x="613" y="0" width="842" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612524701686">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="408" y="0" width="842" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1612452743749" />
+    <state x="613" y="0" width="842" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1612524701686" />
     <state x="566" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610655101116">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -460,14 +578,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="803" y="178" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1612450623219" />
-    <state x="638" y="258" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1610212724567">
+    <state x="638" y="258" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1612524699046">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="638" y="258" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1610212724567" />
-    <state x="628" y="219" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612452670774">
+    <state x="638" y="258" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1612524699046" />
+    <state x="628" y="219" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612524650818">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="628" y="219" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1612452670773" />
+    <state x="628" y="219" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1612524650818" />
     <state x="70" y="117" width="589" height="509" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1611067545758">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -496,42 +614,42 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="766" y="203" key="EnvironmentVariablesDialog/0.0.1600.860@0.0.1600.860" timestamp="1610651309792" />
-    <state x="580" y="138" key="FileChooserDialogImpl" timestamp="1612120682360">
+    <state x="580" y="138" key="FileChooserDialogImpl" timestamp="1612522566484">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="138" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1612120682360" />
-    <state width="1556" height="255" key="GridCell.Tab.0.bottom" timestamp="1612460076807">
+    <state x="580" y="138" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1612522566484" />
+    <state width="1556" height="19" key="GridCell.Tab.0.bottom" timestamp="1612525265344">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="255" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612460076807" />
-    <state width="1556" height="255" key="GridCell.Tab.0.center" timestamp="1612460076807">
+    <state width="1556" height="19" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612525265344" />
+    <state width="1556" height="19" key="GridCell.Tab.0.center" timestamp="1612525265343">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="255" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612460076807" />
-    <state width="1556" height="255" key="GridCell.Tab.0.left" timestamp="1612460076807">
+    <state width="1556" height="19" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612525265343" />
+    <state width="1556" height="19" key="GridCell.Tab.0.left" timestamp="1612525265343">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="255" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612460076807" />
-    <state width="1556" height="255" key="GridCell.Tab.0.right" timestamp="1612460076807">
+    <state width="1556" height="19" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612525265343" />
+    <state width="1556" height="19" key="GridCell.Tab.0.right" timestamp="1612525265344">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="255" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612460076807" />
-    <state width="1556" height="225" key="GridCell.Tab.1.bottom" timestamp="1612444055297">
+    <state width="1556" height="19" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612525265344" />
+    <state width="1556" height="225" key="GridCell.Tab.1.bottom" timestamp="1612472436360">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="225" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612444055297" />
-    <state width="1556" height="225" key="GridCell.Tab.1.center" timestamp="1612444055296">
+    <state width="1556" height="225" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612472436360" />
+    <state width="1556" height="225" key="GridCell.Tab.1.center" timestamp="1612472436360">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="225" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1612444055296" />
-    <state width="1556" height="225" key="GridCell.Tab.1.left" timestamp="1612444055296">
+    <state width="1556" height="225" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1612472436360" />
+    <state width="1556" height="225" key="GridCell.Tab.1.left" timestamp="1612472436360">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="225" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1612444055296" />
-    <state width="1556" height="225" key="GridCell.Tab.1.right" timestamp="1612444055297">
+    <state width="1556" height="225" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1612472436360" />
+    <state width="1556" height="225" key="GridCell.Tab.1.right" timestamp="1612472436360">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="225" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1612444055297" />
+    <state width="1556" height="225" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1612472436360" />
     <state x="380" y="172" key="IDE.errors.dialog" timestamp="1607519145409">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -548,10 +666,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="574" y="366" key="ReplaceDuplicatesPrompt/0.0.1600.860@0.0.1600.860" timestamp="1610295603598" />
-    <state x="350" y="137" width="1040" height="723" key="SettingsEditor" timestamp="1611222832745">
+    <state x="790" y="174" width="795" height="610" key="SettingsEditor" timestamp="1612522570292">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="350" y="137" width="1040" height="723" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1611222832745" />
+    <state x="790" y="174" width="795" height="610" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1612522570292" />
     <state x="616" y="207" key="chooseDestDirectoryDialog" timestamp="1610217664760">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -568,10 +686,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="771" y="359" key="extract.method.dialog/0.0.1600.860@0.0.1600.860" timestamp="1611507888886" />
-    <state x="295" y="43" key="new project wizard" timestamp="1607669762760">
+    <state x="295" y="43" key="new project wizard" timestamp="1612522121655">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="295" y="43" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1607669762760" />
+    <state x="295" y="43" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1612522121655" />
     <state x="500" y="186" key="refactoring.ChangeSignatureDialog" timestamp="1611922620227">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

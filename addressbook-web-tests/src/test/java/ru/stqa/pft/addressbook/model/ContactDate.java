@@ -5,6 +5,9 @@ import org.hibernate.annotations.Type;
 import javax.persistence.*;
 import java.io.File;
 import java.util.Objects;
+import java.util.HashSet;
+import java.util.Set;
+
 
 @XStreamAlias("contact")
 @Entity
@@ -30,9 +33,6 @@ public class ContactDate {
     @Column(name = "address")
     @Type(type = "text")
     private String address;
-
-    @Transient
-    private String group;
 
     @Column(name = "mobile")
     @Type(type = "text")
@@ -71,14 +71,17 @@ public class ContactDate {
     @Type(type = "text")
     private String photo;
 
-    public File getPhoto() {
-        return new File (photo);
-    }
-
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(name = "address_in_groups",
+            joinColumns = @JoinColumn(name = "id"), inverseJoinColumns = @JoinColumn(name = "group_id"))
+    private Set<GroupDate> groups = new HashSet<GroupDate>();
     public ContactDate withPhoto(File photo) {
         this.photo = photo.getPath();
         return this;
+    }
 
+    public File getPhoto() {
+        return new File (photo);
     }
 
     public ContactDate withEmail2(String email2) {
@@ -139,12 +142,6 @@ public class ContactDate {
         return this;
     }
 
-    public ContactDate withGroup(String group) {
-        this.group = group;
-        return this;
-    }
-
-
     public int getId() {
         return id;
     }
@@ -166,9 +163,6 @@ public class ContactDate {
         return homephone;
     }
 
-    public String getGroup() {
-        return group;
-    }
     public ContactDate withMobilePhone(String mobilephone) {
         this.mobilephone = mobilephone;
         return this;
@@ -221,8 +215,13 @@ public ContactDate withAllPhone(String allPhone) {
     public String getAllEmailAddresses() {
         return allEmailAddresses;
     }
+    public Groups getGroups() {
+        return new Groups(groups);
+    }
 
-
+    public ContactDate inGroup(GroupDate group) {
+        groups.add(group);
+        return this; }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

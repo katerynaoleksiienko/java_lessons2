@@ -23,10 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339325f-a5c0-45e1-b127-55889f5e2ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/FtpHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/RegistrationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/RegistrationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/resources/config_inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/HelperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/JamesHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/MailHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/PasswordHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/model/MailMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/model/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/RegistrationSmtpTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/UpdatePasswordTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
@@ -40,15 +45,11 @@
       <change beforePath="$PROJECT_DIR$/../martis-tests/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../martis-tests/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../martis-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/build/reports/tests/test/classes/ru.stqa.pft.mantis.tests.LoginTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/build/reports/tests/test/packages/ru.stqa.pft.mantis.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/build/reports/tests/test/packages/ru.stqa.pft.mantis.tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/build/resources/test/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/build/resources/test/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/build/test-results/test/TEST-ru.stqa.pft.mantis.tests.LoginTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../martis-tests/build/resources/test/config_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/build/resources/test/config_inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/HttpSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/HttpSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/RegistrationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/RegistrationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/resources/config_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/resources/config_inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/resources/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -622,6 +623,9 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -690,6 +694,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="489" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1611909925072" />
+    <state x="288" y="261" key="#xdebugger.evaluate" timestamp="1612612682441">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="288" y="261" key="#xdebugger.evaluate/0.0.1600.860@0.0.1600.860" timestamp="1612612682441" />
     <state x="766" y="203" key="EnvironmentVariablesDialog" timestamp="1610651309792">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -698,38 +706,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="138" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1612544384453" />
-    <state width="1556" height="292" key="GridCell.Tab.0.bottom" timestamp="1612606615703">
+    <state width="860" height="85" key="GridCell.Tab.0.bottom" timestamp="1612642153608">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="292" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612606615703" />
-    <state width="1556" height="292" key="GridCell.Tab.0.center" timestamp="1612606615702">
+    <state width="860" height="85" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612642153608" />
+    <state width="860" height="85" key="GridCell.Tab.0.center" timestamp="1612642153608">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="292" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612606615702" />
-    <state width="1556" height="292" key="GridCell.Tab.0.left" timestamp="1612606615701">
+    <state width="860" height="85" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612642153608" />
+    <state width="860" height="85" key="GridCell.Tab.0.left" timestamp="1612642153607">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="292" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612606615701" />
-    <state width="1556" height="292" key="GridCell.Tab.0.right" timestamp="1612606615703">
+    <state width="860" height="85" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612642153607" />
+    <state width="860" height="85" key="GridCell.Tab.0.right" timestamp="1612642153608">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="292" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612606615703" />
-    <state width="807" height="133" key="GridCell.Tab.1.bottom" timestamp="1612558448422">
+    <state width="860" height="85" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612642153608" />
+    <state width="860" height="85" key="GridCell.Tab.1.bottom" timestamp="1612642153608">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="807" height="133" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612558448422" />
-    <state width="807" height="133" key="GridCell.Tab.1.center" timestamp="1612558448422">
+    <state width="860" height="85" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612642153608" />
+    <state width="860" height="85" key="GridCell.Tab.1.center" timestamp="1612642153608">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="807" height="133" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1612558448422" />
-    <state width="807" height="133" key="GridCell.Tab.1.left" timestamp="1612558448422">
+    <state width="860" height="85" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1612642153608" />
+    <state width="860" height="85" key="GridCell.Tab.1.left" timestamp="1612642153608">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="807" height="133" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1612558448422" />
-    <state width="807" height="133" key="GridCell.Tab.1.right" timestamp="1612558448422">
+    <state width="860" height="85" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1612642153608" />
+    <state width="860" height="85" key="GridCell.Tab.1.right" timestamp="1612642153608">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="807" height="133" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1612558448422" />
+    <state width="860" height="85" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1612642153608" />
     <state x="380" y="172" key="IDE.errors.dialog" timestamp="1607519145409">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -770,10 +778,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="295" y="43" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1612534910198" />
-    <state x="500" y="186" key="refactoring.ChangeSignatureDialog" timestamp="1611922620227">
+    <state x="500" y="186" key="refactoring.ChangeSignatureDialog" timestamp="1612612188298">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="500" y="186" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1611922620227" />
+    <state x="500" y="186" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1612612188298" />
     <state x="545" y="370" key="run.anything.popup" timestamp="1612119358094">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

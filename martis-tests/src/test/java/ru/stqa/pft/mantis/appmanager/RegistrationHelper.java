@@ -14,7 +14,7 @@ public class RegistrationHelper extends HelperBase {
         wd.get(app.getProperty("web.baseUrl") + "/signup_page.php");
         type(By.name("username"), username);
         type(By.name("email"), email);
-        click(By.cssSelector("input[value='Зарегистрироваться']"));
+        click(By.cssSelector("input[value='Signup'"));
 
        // click(By.xpath("//form[@id='signup-form']/fieldset/input[2]"));
     }
@@ -23,6 +23,6 @@ public class RegistrationHelper extends HelperBase {
         wd.get(confirmationlink);
         type(By.name("password"), password);
         type(By.name("password_confirm"), password);
-        click(By.xpath("input[value='Изменить учетную запись']"));
+        click(By.xpath("input[value='Update User']"));
     }
 }

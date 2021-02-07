@@ -1,2 +1,2 @@
-include 'src2'
+rootProject.name = 'soap-sample'
 

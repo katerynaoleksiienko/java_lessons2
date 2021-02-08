@@ -3,12 +3,12 @@
 <suite name="Suite1" verbose="1" >
     <test name="Contacts">
         <classes>
-            <class name="ru.stqa.pft.addressbook.tests.ContactsCreationTests" />
-            <class name="ru.stqa.pft.addressbook.tests.ContactAddressTest" />
-            <class name="ru.stqa.pft.addressbook.tests.ContactDeletionTest" />
-            <class name="ru.stqa.pft.addressbook.tests.ContactEmailAddressTest" />
-            <class name="ru.stqa.pft.addressbook.tests.ContactModificationTests" />
-            <class name="ru.stqa.pft.addressbook.tests.ContactPhonesTest" />
+            <class name="ru.stqa.pft.rest.addressbook.tests.ContactsCreationTests" />
+            <class name="ru.stqa.pft.rest.addressbook.tests.ContactAddressTest" />
+            <class name="ru.stqa.pft.rest.addressbook.tests.ContactDeletionTest" />
+            <class name="ru.stqa.pft.rest.addressbook.tests.ContactEmailAddressTest" />
+            <class name="ru.stqa.pft.rest.addressbook.tests.ContactModificationTests" />
+            <class name="ru.stqa.pft.rest.addressbook.tests.ContactPhonesTest" />
         </classes>
     </test>
 </suite>

@@ -23,85 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339325f-a5c0-45e1-b127-55889f5e2ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/ApplicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/Issue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/RestAssuredTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/RestTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/src/test/resources/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/remote.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/appmanager/ContactHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/DbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/appmanager/DbHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/appmanager/GroupHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/appmanager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/appmanager/SessionHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/generators/ContactDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/generators/ContactDataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/generators/GroupDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/generators/GroupDataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/model/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactAndGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/model/ContactAndGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactAndGroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/model/ContactAndGroupData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/model/ContactDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/model/GroupDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/model/Groups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddToGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/ContactAddToGroupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/ContactAddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeleteFromGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/ContactDeleteFromGroupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/ContactDeletionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactEmailAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/ContactEmailAddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/ContactModificationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactPhonesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/ContactPhonesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactsCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/ContactsCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/DBConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/DBConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/GroupCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/GroupDeletionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/GroupModificationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HBConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/HBConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HBContactConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/HBContactConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng-contacts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng-groups.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/build/resources/test/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/build/resources/test/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/FtpHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/FtpHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/HttpSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/HttpSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/JamesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/JamesHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/MailHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/MailHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/PasswordHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/PasswordHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/RegistrationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/RegistrationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/SoapHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/SoapHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/model/Issue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/model/Issue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/model/MailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/model/MailMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/model/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/model/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/appmanager/model/UserData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/RegistrationSmtpTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/tests/RegistrationSmtpTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/tests/RegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/SkipTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/tests/SkipTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/SoapTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/tests/SoapTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/TestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/mantis/tests/UpdatePasswordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/java/ru/stqa/pft/rest/mantis/tests/UpdatePasswordTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../martis-tests/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../martis-tests/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../soap-sample/src/test/java/ru/stqa/pft/soap/GeoIpServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../soap-sample/src/test/java/ru/stqa/pft/rest/soap/GeoIpServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.stqa.pft.addressbook.tests.ContactsCreationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/testContacts/TEST-ru.stqa.pft.addressbook.tests.ContactModificationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/testContacts/TEST-ru.stqa.pft.addressbook.tests.ContactsCreationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/testContacts/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/testContacts/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-sample/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-sample/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-sample/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +182,7 @@
       <recent name="C:\java_lessons2\martis-tests\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SoapTests">
+  <component name="RunManager" selected="Gradle.RestTests">
     <configuration name="ContactDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.generators.ContactDataGenerator" />
       <module name="java_lessons2.test" />
@@ -276,6 +211,25 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.soap.GeoIpServiceTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RestTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../rest-sample" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.rest.RestTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -719,6 +673,7 @@
       <item itemvalue="Gradle.GeoIpServiceTests" />
       <item itemvalue="Gradle.SoapTests.testGetProjects" />
       <item itemvalue="Gradle.SoapTests" />
+      <item itemvalue="Gradle.RestTests" />
       <item itemvalue="Shell Script.Unnamed" />
       <item itemvalue="TestNG.RegistrationTests" />
       <item itemvalue="TestNG.LoginTests" />
@@ -742,6 +697,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RestTests" />
         <item itemvalue="Gradle.SoapTests" />
         <item itemvalue="Gradle.SoapTests.testGetProjects" />
         <item itemvalue="Gradle.GeoIpServiceTests" />

@@ -23,20 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339325f-a5c0-45e1-b127-55889f5e2ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/remote.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screenshots/FYS4exf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screenshots/pVExhB6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screenshots/uEjBv1O.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screenshots/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screenshots/Без названия (2).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.stqa.pft.addressbook.tests.ContactsCreationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/testContacts/TEST-ru.stqa.pft.addressbook.tests.ContactModificationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/testContacts/TEST-ru.stqa.pft.addressbook.tests.ContactsCreationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/testContacts/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/testContacts/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rest-sample/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rest-sample/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rest-sample/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,22 +156,22 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java_lessons2\martis-tests\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.stqa.pft.mantis.manager" />
+      <recent name="ru.stqa.pft.mantis.tests" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.stqa.pft.rest" />
       <recent name="ru.stqa.pft.addressbook.appmanagercontact" />
       <recent name="ru.stqa.pft.addressbook" />
       <recent name="ru.stqa.pft.addressbook.appmanager" />
       <recent name="appmanager" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ru.stqa.pft.mantis.manager" />
-      <recent name="ru.stqa.pft.mantis.tests" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\java_lessons2\martis-tests\src\test\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.RestTests">
